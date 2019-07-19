@@ -28,7 +28,7 @@
             ],
             "scripts": [
               "src/assets/js/progressbar.js",
-              "src/assets/js/barras.js",
+              "src/assets/js/barras.js"
             ]
           },
           "configurations": {

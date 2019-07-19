@@ -1,0 +1,79 @@
+/*
+Estilos del menu el panel izquierdo
+*/
+
+/*botones---------------------------*/
+.button {
+  position: relative;
+    float: left;
+    background-color: white;
+    width: 46%;
+    height: 25%;
+    margin: 1%;
+    /*border: 5px solid #2c5aa9;*/
+    text-align: center;
+
+
+  display: inline-block;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  color: rgb(153, 61, 61);
+  font-size: 20px;
+  padding: 20px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*-----------------------------------*/
+.boton{
+  position: relative;
+    float: left;
+    background-color: white;
+    width: 46%;
+    height: 25%;
+    margin: 1%;
+    /*border: 5px solid #2c5aa9;*/
+    text-align: center;
+}
+
+.big{
+    width: 94%;
+}
+
+.btnPanico{
+  width: 94%;
+  height: 17%;
+  background-color: rgba(253, 207, 0, 0.5);
+  color: white;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.btnPanico:hover {
+  background-color: rgba(253, 207, 0, 1.0);
+}
