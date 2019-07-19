@@ -3,7 +3,9 @@
  * de forma aleatoria.
  */
 
-window.onload = function onLoad() {
+//NOTA: este JavaScrip decidi ignorarlo porque en Angular me genero  conflicto
+//      al momento de ejecutarse...
+//      la solucion fue copiar este codigo a TypeScript dentro del archivo "app.component.ts"
 
     
 var rand = Math.floor(Math.random() * 10);
@@ -43,4 +45,3 @@ switch (rand) {
 document.getElementById('desastre').innerHTML = texto;
 console.log(rand);
 
-};

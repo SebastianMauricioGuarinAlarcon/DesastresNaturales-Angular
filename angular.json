@@ -27,10 +27,8 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/js/tipoDesastre.js",
+              "src/assets/js/progressbar.js",
               "src/assets/js/barras.js",
-              "src/assets/js/progressbar.js"
-              
             ]
           },
           "configurations": {
