@@ -1,5 +1,6 @@
-# NOTA
+# NOTA -----------------------
 En angular.json estan importados los archivos JavaScript necesarios para la ejecucion de las barras graficas contadoras de la probabilidad de desastre
+# ---------------------------
 
 # AppDesastresNaturalesANGULAR
 
