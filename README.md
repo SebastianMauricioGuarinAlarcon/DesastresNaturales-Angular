@@ -1,3 +1,6 @@
+# NOTA
+En angular.json estan importados los archivos JavaScript necesarios para la ejecucion de las barras graficas contadoras de la probabilidad de desastre
+
 # AppDesastresNaturalesANGULAR
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.4.
